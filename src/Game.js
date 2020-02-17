@@ -31,6 +31,7 @@ class Game extends Component {
     };
     this.roll = this.roll.bind(this);
     this.doScore = this.doScore.bind(this);
+   this.toggleLocked= this.toggleLocked.bind(this);
   }
 
   roll(evt) {
@@ -69,7 +70,7 @@ class Game extends Component {
     return (
       <div className='Game'>
         <header className='Game-header'>
-          <h1 className='App-title'>Yahtzee!</h1>
+          <h1 className='App-titl e'>Yahtzee!</h1>
 
           <section className='Game-dice-section'>
             <Dice

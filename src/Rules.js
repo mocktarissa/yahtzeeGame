@@ -57,15 +57,15 @@ class SumDistro extends Rule {
 
 /** Check if full house (3-of-kind and 2-of-kind) */
 
-class FullHouse {
-  // TODO
-}
+// class FullHouse {
+//   // TODO
+// }
 
-/** Check for small straights. */
+// /** Check for small straights. */
 
-class SmallStraight {
-  // TODO
-}
+// class SmallStraight {
+//   // TODO
+// }
 
 /** Check for large straights. */
 
